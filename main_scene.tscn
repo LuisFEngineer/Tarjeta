@@ -29,7 +29,7 @@ font_size = 26
 
 [sub_resource type="Animation" id="Animation_xmlya"]
 resource_name = "OpenSobre"
-length = 2.3
+length = 2.8
 step = 0.01
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -38,10 +38,10 @@ tracks/0/path = NodePath("tapa1:visible")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55, 1.6),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
-"values": [true, false, false, false, false, false, false, false, false, false, false, false]
+"values": [true, false, false, false, false, false, false, false, false, false, false]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -50,10 +50,10 @@ tracks/1/path = NodePath("tapa2:visible")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55, 1.6),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
-"values": [false, true, false, false, false, false, false, false, false, false, false, false]
+"values": [false, true, false, false, false, false, false, false, false, false, false]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
@@ -62,10 +62,10 @@ tracks/2/path = NodePath("tapa3:visible")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
-"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55, 1.6),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.23, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
-"values": [false, false, true, false, false, false, false, false, false, false, false, false]
+"values": [false, false, true, false, false, false, false, false, false, false, false]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
@@ -74,10 +74,10 @@ tracks/3/path = NodePath("tapa4:visible")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
-"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55, 1.6),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
-"values": [false, false, false, true, false, false, false, false, false, false, false, false]
+"values": [false, false, false, true, false, false, false, false, false, false, false]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
@@ -86,10 +86,10 @@ tracks/4/path = NodePath("tapa5:visible")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
-"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55, 1.6),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
-"values": [false, false, false, false, true, false, false, false, false, false, false, false]
+"values": [false, false, false, false, true, false, false, false, false, false, false]
 }
 tracks/5/type = "value"
 tracks/5/imported = false
@@ -98,10 +98,10 @@ tracks/5/path = NodePath("tapa6:visible")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
-"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55, 1.6),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
-"values": [false, false, false, false, false, true, false, false, false, false, false, false]
+"values": [false, false, false, false, false, true, false, false, false, false, false]
 }
 tracks/6/type = "value"
 tracks/6/imported = false
@@ -110,10 +110,10 @@ tracks/6/path = NodePath("tapa7:visible")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/keys = {
-"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55, 1.6),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
-"values": [false, false, false, false, false, false, true, false, false, false, false, false]
+"values": [false, false, false, false, false, false, true, false, false, false, false]
 }
 tracks/7/type = "value"
 tracks/7/imported = false
@@ -122,10 +122,10 @@ tracks/7/path = NodePath("tapa8:visible")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
-"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55, 1.6),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
-"values": [false, false, false, false, false, false, false, true, false, false, false, false]
+"values": [false, false, false, false, false, false, false, true, false, false, false]
 }
 tracks/8/type = "value"
 tracks/8/imported = false
@@ -134,10 +134,10 @@ tracks/8/path = NodePath("tapa9:visible")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = {
-"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55, 1.6),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
-"values": [false, false, false, false, false, false, false, false, true, false, false, false]
+"values": [false, false, false, false, false, false, false, false, true, false, false]
 }
 tracks/9/type = "value"
 tracks/9/imported = false
@@ -146,10 +146,10 @@ tracks/9/path = NodePath("tapa10:visible")
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/keys = {
-"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55, 1.6),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 1.55),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
-"values": [false, false, false, false, false, false, false, false, false, true, true, false]
+"values": [false, false, false, false, false, false, false, false, false, true, true]
 }
 tracks/10/type = "value"
 tracks/10/imported = false
@@ -158,7 +158,7 @@ tracks/10/path = NodePath("Tarjeta:visible")
 tracks/10/interp = 1
 tracks/10/loop_wrap = true
 tracks/10/keys = {
-"times": PackedFloat32Array(0, 0.45, 2.3),
+"times": PackedFloat32Array(0, 0.45, 2.8),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
 "values": [true, true, true]
@@ -170,7 +170,7 @@ tracks/11/path = NodePath("Tarjeta:size")
 tracks/11/interp = 1
 tracks/11/loop_wrap = true
 tracks/11/keys = {
-"times": PackedFloat32Array(0, 0.45, 1.5, 2.3),
+"times": PackedFloat32Array(0, 0.45, 1.5, 2.8),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 0,
 "values": [Vector2(158.78516, 930.35645), Vector2(158.78516, 930.35645), Vector2(158.78516, 930.35645), Vector2(1080, 6327.953)]
@@ -182,7 +182,7 @@ tracks/12/path = NodePath("Tarjeta:rotation")
 tracks/12/interp = 1
 tracks/12/loop_wrap = true
 tracks/12/keys = {
-"times": PackedFloat32Array(0, 0.45, 1.5, 2.3),
+"times": PackedFloat32Array(0, 0.45, 1.5, 2.8),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 0,
 "values": [-1.5707964, -1.5707964, 0.0, 0.0]
@@ -194,7 +194,7 @@ tracks/13/path = NodePath("Tarjeta:position")
 tracks/13/interp = 1
 tracks/13/loop_wrap = true
 tracks/13/keys = {
-"times": PackedFloat32Array(0, 0.45, 0.6540731, 1.5, 2.3),
+"times": PackedFloat32Array(0, 0.45, 0.6540731, 1.5, 2.8),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 0,
 "values": [Vector2(79, 1184.7852), Vector2(79, 1184.7852), Vector2(89.509, 999.281), Vector2(460.18, 230.325), Vector2(0, 0)]
@@ -202,38 +202,50 @@ tracks/13/keys = {
 tracks/14/type = "value"
 tracks/14/imported = false
 tracks/14/enabled = true
-tracks/14/path = NodePath("Fondo:visible")
+tracks/14/path = NodePath("Tarjeta/bgContador:visible")
 tracks/14/interp = 1
 tracks/14/loop_wrap = true
 tracks/14/keys = {
-"times": PackedFloat32Array(1.55, 1.6),
-"transitions": PackedFloat32Array(1, 1),
+"times": PackedFloat32Array(0, 2.7694814, 2.8),
+"transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
-"values": [true, false]
+"values": [false, false, true]
 }
 tracks/15/type = "value"
 tracks/15/imported = false
 tracks/15/enabled = true
-tracks/15/path = NodePath("Cover:visible")
+tracks/15/path = NodePath("Cover:modulate")
 tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = {
-"times": PackedFloat32Array(1.55, 1.6),
+"times": PackedFloat32Array(1.2, 1.54),
 "transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [true, false]
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
 }
 tracks/16/type = "value"
 tracks/16/imported = false
 tracks/16/enabled = true
-tracks/16/path = NodePath("Tarjeta/bgContador:visible")
+tracks/16/path = NodePath("Fondo:modulate")
 tracks/16/interp = 1
 tracks/16/loop_wrap = true
 tracks/16/keys = {
-"times": PackedFloat32Array(0, 2.2694814, 2.3),
-"transitions": PackedFloat32Array(1, 1, 1),
-"update": 1,
-"values": [false, false, true]
+"times": PackedFloat32Array(1.2, 1.54),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("tapa10:modulate")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(1.2, 1.5384406),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
 }
 
 [sub_resource type="Animation" id="Animation_5nb6a"]
@@ -409,38 +421,50 @@ tracks/13/keys = {
 tracks/14/type = "value"
 tracks/14/imported = false
 tracks/14/enabled = true
-tracks/14/path = NodePath("Fondo:visible")
+tracks/14/path = NodePath("Tarjeta/bgContador:visible")
 tracks/14/interp = 1
 tracks/14/loop_wrap = true
 tracks/14/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [true]
+"values": [false]
 }
 tracks/15/type = "value"
 tracks/15/imported = false
 tracks/15/enabled = true
-tracks/15/path = NodePath("Cover:visible")
+tracks/15/path = NodePath("Cover:modulate")
 tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
 }
 tracks/16/type = "value"
 tracks/16/imported = false
 tracks/16/enabled = true
-tracks/16/path = NodePath("Tarjeta/bgContador:visible")
+tracks/16/path = NodePath("Fondo:modulate")
 tracks/16/interp = 1
 tracks/16/loop_wrap = true
 tracks/16/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [false]
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("tapa10:modulate")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_8rxlu"]
@@ -548,18 +572,18 @@ expand_mode = 1
 [node name="link1" type="Button" parent="Tarjeta"]
 modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 435.0
-offset_top = 4826.215
-offset_right = 643.0
-offset_bottom = 4893.215
+offset_left = 428.0
+offset_top = 4655.0
+offset_right = 636.0
+offset_bottom = 4722.0
 
 [node name="link2" type="Button" parent="Tarjeta"]
 modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 437.0
-offset_top = 5735.0
-offset_right = 645.0
-offset_bottom = 5802.0
+offset_left = 425.0
+offset_top = 5530.0
+offset_right = 633.0
+offset_bottom = 5597.0
 
 [node name="bgContador" type="ColorRect" parent="Tarjeta"]
 visible = false
@@ -570,9 +594,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -300.0
-offset_top = 579.02344
+offset_top = 346.02344
 offset_right = 295.0
-offset_bottom = 749.02344
+offset_bottom = 516.02344
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.6901961, 0.3254902, 0.39607844, 1)
@@ -849,10 +873,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -124.25
-offset_top = 316.75
-offset_right = 124.25
-offset_bottom = 455.25
+offset_left = -472.0
+offset_top = -97.0
+offset_right = 478.0
+offset_bottom = 517.0
 grow_horizontal = 2
 grow_vertical = 2
 
