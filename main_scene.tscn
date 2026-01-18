@@ -1,12 +1,15 @@
-[gd_scene load_steps=21 format=3 uid="uid://c0v20mm8yi6ne"]
+[gd_scene load_steps=24 format=3 uid="uid://c0v20mm8yi6ne"]
 
 [ext_resource type="Texture2D" uid="uid://b111glyh2gy3" path="res://Back.png" id="1_3fsgk"]
 [ext_resource type="Script" uid="uid://cfig8sugn1kcr" path="res://Funtionality.gd" id="1_qtmhy"]
 [ext_resource type="Texture2D" uid="uid://cwvisqd04jajh" path="res://Cover.png" id="2_3s8em"]
 [ext_resource type="Texture2D" uid="uid://2hcfik73pvk8" path="res://closeTapa.png" id="4_h7lgq"]
-[ext_resource type="Texture2D" uid="uid://eo5q78ca01gb" path="res://Copia de MIS XV AÑOS (1).png" id="4_um60f"]
+[ext_resource type="Texture2D" uid="uid://ojtxcoe1t7k0" path="res://TarjetaPEDAZO1.png" id="4_u0ygc"]
+[ext_resource type="Texture2D" uid="uid://c2mdhei5b13fb" path="res://TarjetaPEDAZO2.png" id="5_7th4q"]
 [ext_resource type="Texture2D" uid="uid://c8mqmg1ydqys0" path="res://C1.png" id="5_um60f"]
+[ext_resource type="Texture2D" uid="uid://p37o78matcfk" path="res://TarjetaPEDAZO3.png" id="6_6jybn"]
 [ext_resource type="Texture2D" uid="uid://k11aaiw45027" path="res://C2.png" id="6_tvvjf"]
+[ext_resource type="Texture2D" uid="uid://d2gqkjvmksfik" path="res://TarjetaPEDAZO4.png" id="7_84odl"]
 [ext_resource type="Texture2D" uid="uid://dw25o4thfoe5" path="res://C3.png" id="7_odbm5"]
 [ext_resource type="Texture2D" uid="uid://bk2exj56jrlo2" path="res://C4.png" id="8_qqpgl"]
 [ext_resource type="Texture2D" uid="uid://c6hdqs15hw83k" path="res://O1.png" id="9_ubvo4"]
@@ -507,7 +510,39 @@ offset_top = 1184.7852
 offset_right = 619.0
 offset_bottom = 7512.7383
 grow_horizontal = 2
-texture = ExtResource("4_um60f")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Tarjeta"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+
+[node name="TextureRect" type="TextureRect" parent="Tarjeta/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("4_u0ygc")
+expand_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="Tarjeta/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("5_7th4q")
+expand_mode = 1
+
+[node name="TextureRect3" type="TextureRect" parent="Tarjeta/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("6_6jybn")
+expand_mode = 1
+
+[node name="TextureRect4" type="TextureRect" parent="Tarjeta/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("7_84odl")
 expand_mode = 1
 
 [node name="link1" type="Button" parent="Tarjeta"]
