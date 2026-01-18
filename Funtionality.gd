@@ -38,10 +38,12 @@ func _on_open_bt_pressed() -> void:
 
 
 func _on_link_2_pressed() -> void:
+	print("pressed")
 	OS.shell_open("https://www.google.com/maps?q=Jard%C3%ADn+Jeric%C3%B3,+Acatempan+29,+Col.+Loma+del+Pi%C3%B1%C3%B3n,+58056+Morelia,+Mich.&ftid=0x842d0dcc78dc63b1:0xaf54a5a9dadeac82&entry=gps&lucs=,94297695,94275415,94284484,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0ODQsOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAk1Y&skid=e008b9df-1b8e-4e2f-bf8b-e7721d23eba8&g_st=ipc")
 
 
 func _on_link_1_pressed() -> void:
+	print("pressed")
 	OS.shell_open("https://www.google.com/maps/place/Parroquia+de+la+Inmaculada+Concepci%C3%B3n+de+la+Virgen+Mar%C3%ADa/@19.7006594,-101.1736406,17z/data=!3m1!4b1!4m6!3m5!1s0x842d0e0f4ff981ad:0x866d4cf589987066!8m2!3d19.7006594!4d-101.1736406!16s%2Fm%2F0288xmf?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D")
 
 func getReverseCount():
